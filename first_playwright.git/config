@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "first_playwright"]
+	url = https://github.com/yuhongkuo/first_playwright
+	fetch = +refs/heads/*:refs/remotes/first_playwright/*
+[remote "origin"]
+	url = https://github.com/yuhongkuo/first_playwright.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
